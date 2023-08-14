@@ -238,6 +238,8 @@ Resources:
               source /home/ec2-user/anaconda3/bin/activate dashboard
               python -m ipykernel install --user --name dashboard --display-name "conda_dashboard"
               pip install -r /home/ec2-user/SageMaker/requirements.dev.txt
+              pip install jupyter_client --upgrade
+              pip install jupyter_core --upgrade
       OnCreate:
         - Content:
             Fn::Base64: !Sub |
