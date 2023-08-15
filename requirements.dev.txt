@@ -76,7 +76,7 @@ python-dateutil==2.8.1    # via botocore, jupyter-client, pandas
 python-dotenv==0.13.0     # via -r requirements.dev.in
 pytz==2020.1              # via pandas
 pyyaml             # via awscli
-pyzmq==19.0.1             # via jupyter-client, notebook, qtconsole
+pyzmq             # via jupyter-client, notebook, qtconsole
 qtconsole==4.7.4          # via jupyter
 qtpy==1.9.0               # via qtconsole
 regex==2020.5.14          # via sacremoses, transformers
