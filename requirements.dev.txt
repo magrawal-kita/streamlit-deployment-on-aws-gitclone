@@ -60,8 +60,8 @@ pip-tools==5.1.2          # via -r requirements.dev.in
 pluggy==0.13.1            # via pytest
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==3.0.5     # via ipython, jupyter-console
-protobuf3-to-dict==0.1.5  # via sagemaker
-protobuf==3.12.1          # via protobuf3-to-dict, sagemaker
+protobuf3-to-dict  # via sagemaker
+protobuf          # via protobuf3-to-dict, sagemaker
 ptyprocess==0.6.0         # via pexpect, terminado
 py                 # via pytest
 pyasn1==0.4.8             # via rsa
