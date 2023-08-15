@@ -85,7 +85,7 @@ rsa                # via awscli
 s3transfer==0.3.3         # via awscli, boto3
 sacremoses==0.0.43        # via transformers
 sagemaker==1.59.0         # via -r requirements.dev.in
-scipy==1.4.1              # via sagemaker
+scipy              # via sagemaker
 send2trash==1.5.0         # via notebook
 sentencepiece==0.1.91     # via transformers
 six==1.15.0               # via astroid, bleach, jsonschema, packaging, pip-tools, protobuf, protobuf3-to-dict, python-dateutil, sacremoses, traitlets
