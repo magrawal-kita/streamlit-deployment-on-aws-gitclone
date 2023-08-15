@@ -45,7 +45,7 @@ mccabe==0.6.1             # via flake8, pylint
 mistune==0.8.4            # via nbconvert
 more-itertools==8.3.0     # via pytest
 mypy-extensions==0.4.3    # via mypy
-mypy==0.770               # via -r requirements.dev.in
+mypy              # via -r requirements.dev.in
 nbconvert==5.6.1          # via jupyter, notebook
 nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 numpy             # via pandas, sagemaker, scipy, torch, transformers
