@@ -49,7 +49,7 @@ mypy==0.770               # via -r requirements.dev.in
 nbconvert==5.6.1          # via jupyter, notebook
 nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 notebook           # via jupyter, widgetsnbextension
-numpy==1.18.4             # via pandas, sagemaker, scipy, torch, transformers
+numpy             # via pandas, sagemaker, scipy, torch, transformers
 packaging==20.4           # via bleach, pytest, sagemaker
 pandas==1.0.3             # via -r requirements.dev.in
 pandocfilters==1.4.2      # via nbconvert
