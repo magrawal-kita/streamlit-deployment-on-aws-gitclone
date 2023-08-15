@@ -97,7 +97,7 @@ torch              # via -r requirements.dev.in
 tornado==6.0.4            # via ipykernel, jupyter-client, notebook, terminado
 tqdm==4.46.0              # via sacremoses, transformers
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
-transformers==2.10.0      # via -r requirements.dev.in
+transformers      # via -r requirements.dev.in
 typed-ast==1.4.1          # via astroid, mypy
 typing-extensions==3.7.4.2  # via mypy
 urllib3==1.25.9           # via botocore, requests
