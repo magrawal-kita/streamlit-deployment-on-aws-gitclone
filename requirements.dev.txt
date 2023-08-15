@@ -15,7 +15,7 @@ certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
 click==7.1.2              # via pip-tools, sacremoses
 colorama==0.4.3           # via awscli
-dataclasses==0.7          # via transformers
+dataclasses          # via transformers
 decorator==4.4.2          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 docutils==0.15.2          # via awscli, botocore
