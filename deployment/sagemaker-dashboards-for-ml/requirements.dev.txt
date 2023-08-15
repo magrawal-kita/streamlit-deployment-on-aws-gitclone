@@ -75,7 +75,7 @@ python-dateutil==2.8.1    # via botocore, jupyter-client, pandas
 python-dotenv==0.13.0     # via -r requirements.dev.in
 pytz==2020.1              # via pandas
 pyyaml>=5.4             # via awscli
-pyzmq==19.0.1             # via jupyter-client, notebook, qtconsole
+pyzmq             # via jupyter-client, notebook, qtconsole
 qtconsole==4.7.4          # via jupyter
 qtpy==1.9.0               # via qtconsole
 regex==2020.5.14          # via sacremoses, transformers
@@ -91,14 +91,14 @@ six==1.15.0               # via astroid, bleach, jsonschema, packaging, pip-tool
 smdebug-rulesconfig==0.1.2  # via sagemaker
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
-tokenizers==0.7.0         # via transformers
+tokenizers         # via transformers
 toml==0.10.1              # via pylint
 torch              # via -r requirements.dev.in
 tornado==6.0.4            # via ipykernel, jupyter-client, notebook, terminado
 tqdm==4.46.0              # via sacremoses, transformers
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
 transformers      # via -r requirements.dev.in
-typed-ast==1.4.1          # via astroid, mypy
+typed-ast          # via astroid, mypy
 typing-extensions==3.7.4.2  # via mypy
 urllib3==1.25.9           # via botocore, requests
 wcwidth==0.1.9            # via prompt-toolkit, pytest
